@@ -26,3 +26,12 @@ The `.gitignore` file is set up to ignore files which are typically specific to 
     -   `fix-byte-order-marker`: Removes the byte order marker (BOM) from files.
     -   `mixed-line-ending`: Prevents mixed line endings in files.
     -   `trailing-whitespace`: Prevents trailing whitespace at the end of lines.
+
+## YAML
+
+Two tools are used to check and format YAML files:
+
+-   [yamllint](https://yamllint.readthedocs.io/en/stable/) is a linter for YAML files. This template includes a configuration file (`.yamllint.yaml`) that sets up a number of rules.
+-   [yamlfix](https://github.com/lyz-code/yamlfix/) formats and fixes a number of small issues in YAML files. This template includes a configuration file (`.yamlfix.yaml`) that sets up a number of rules.
+
+It is recommended that `yamlfix` be run before `yamllint` to ensure that the files are formatted correctly before being linted. There are also VS Code recommended extensions and settings specifically targetting YAML files.

@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "cmd": "yamlfix -c .yamlfix.toml '${file}'",
+        "match": ".*\\.ya?ml$"
+      }
+    ]
+  },
+}
