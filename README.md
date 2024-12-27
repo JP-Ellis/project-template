@@ -39,3 +39,7 @@ It is recommended that `yamlfix` be run before `yamllint` to ensure that the fil
 ## Markdown
 
 Markdown files are checked using [markdownlint](https://github.com/igorshubovych/markdownlint-cli). In addition, a number of extensions are recommended for VS Code to improve the editing experience. Further formatting is done using [mdformat](https://github.com/hukkin/mdformat).
+
+## EditorConfig
+
+[EditorConfig](https://editorconfig.org/) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. This template includes a configuration file (`.editorconfig`) that sets up a number of rules.

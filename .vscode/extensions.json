@@ -1,9 +1,10 @@
 {
-    "recommendations": [
-        "emeraldwalk.runonsave",
-        "redhat.vscode-yaml",
-        "yzhang.markdown-all-in-one",
-        "bierner.github-markdown-preview",
-        "davidanson.vscode-markdownlint"
-    ]
+  "recommendations": [
+    "emeraldwalk.runonsave",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one",
+    "bierner.github-markdown-preview",
+    "davidanson.vscode-markdownlint",
+    "editorconfig.editorconfig"
+  ]
 }
