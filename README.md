@@ -35,3 +35,7 @@ Two tools are used to check and format YAML files:
 -   [yamlfix](https://github.com/lyz-code/yamlfix/) formats and fixes a number of small issues in YAML files. This template includes a configuration file (`.yamlfix.yaml`) that sets up a number of rules.
 
 It is recommended that `yamlfix` be run before `yamllint` to ensure that the files are formatted correctly before being linted. There are also VS Code recommended extensions and settings specifically targetting YAML files.
+
+## Markdown
+
+Markdown files are checked using [markdownlint](https://github.com/igorshubovych/markdownlint-cli). In addition, a number of extensions are recommended for VS Code to improve the editing experience. Further formatting is done using [mdformat](https://github.com/hukkin/mdformat).

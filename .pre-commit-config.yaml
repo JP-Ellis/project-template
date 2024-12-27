@@ -51,3 +51,29 @@ repos:
     rev: v1.35.1
     hooks:
       - id: yamllint
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.43.0
+    hooks:
+      - id: markdownlint
+
+  - repo: https://github.com/hukkin/mdformat
+    rev: 0.7.21
+    hooks:
+      - id: mdformat
+        additional_dependencies:
+          # Code formatters
+          - mdformat-config
+          - mdformat-ruff
+          - mdformat-rustfmt
+          - mdformat-shfmt
+          # Markdown extensions
+          - mdformat-admon
+          - mdformat-footnote
+          - mdformat-frontmatter
+          - mdformat-gfm
+          - mdformat-gfm-alerts
+          - mdformat-mkdocs
+          - mdformat-tables
+        args:
+          - --ignore-missing-references
